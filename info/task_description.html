@@ -1,20 +1,44 @@
 <!-- Describe task in general -->
-<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;"><i>
+    The <a target="_blank" href="https://en.wikipedia.org/wiki/Cistercian_numerals">Cistercian</a>  number-notation was invented in the late 13th century by Cistercian monks, near the border region between France and Belgium. For two centuries, the number system was used by monks belonging to the order across all of Europe as an alternative to the well-known Roman numerals and the ‘novel’ Hindu-Arabic numerals, the latter of which were just beginning to get adopted at the time.
+</i></p>
+<p style="text-align: justify;"><i>
+    The monks used this system to represent year-numbers in dates, and to number staves of music and pages of manuscripts, but it also proved useful outside of the monasteries. We know the numerical notation was used in astronomy because Cistercian numerals were etched on astrolabes — a handheld medieval astronomical instrument — and used for astronomical tables compiled in Salamanca in the late 15th century.
+</i></p>
+<p style="text-align: justify;"><i>
+    But since Cistercian numbers are useful for representing only compact numbers up to 9999, as well as due to the fact that they were challenging to print, the system soon fell out of grace in favor of the much more flexible Hindu-Arabic numbering system. However, Cistercian ciphers would survive in use as secret codes. The Freemasons in Paris adopted it in 1780, as well as occultists and Nazis who re-discovered the Cistercian numeral system in the early 20th century.
+</i></p>
+
 <p style="text-align: justify;">
-    Sum two passed ints
+    These numbers are represented by nine appendages to vertical stems that each correspond to units, tens, hundreds, and thousands.
+    Each of the four different orientations can be represented by changing the coordinates. So, practically, changing the coordinate of each ligature — either by rotating or mirroring them — can alter the digit from being a unit to a thousand. When the appendages are combined on a single stem, you get a cipher representing any number from 1 to 9999.
+    Omitting a digit from a corner meant a value of zero for that power of ten, but there was no digit zero. (That is, an empty stave was not defined.)
 </p>
 
 <p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+    <img  title="example" src="{{MEDIA}}cistercian1.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Here are the Cistercian numbers for 1-9 digits and their corresponding representations in the mission as list of 7 lists of 5 " "'s and "0"'s. 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian2.svg" alt="example" style="max-height: 400px"/>
+</p>
+
+<p style="text-align: justify;">
+    In the mission you are given an integer and you need to return the Cistercian number representation of this number. You may also try the reversed mission, where you are given the Cistercian number and you need to return the integer. There is also a site with a visual two-way converter for Cistercian numbers: <a target="_blank" href="https://www.dcode.fr/cistercian-numbers">dcode.fr</a>.
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input:</strong> Two arguments. Both are ints.
+    <strong>Input:</strong> Integer <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>.
 </p>
 
 <p>
-    <strong>Output:</strong> Int. 
+    <strong>Output:</strong> <span translate="repeat">{% if is_js %}Array{% else %}List{% endif %}</span> of {% if is_js %}arrays{% else %}lists{% endif %} of strings <span translate="no">(str{% if is_js %}ing{% endif %})</span>. 
 </p>
 
 
