@@ -1,0 +1,66 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;"><i>
+    Numeracja <a target="_blank" href="https://en.wikipedia.org/wiki/Cistercian_numerals">Cistercian</a> została wynaleziona pod koniec XIII wieku przez mnichów cysterskich w pobliżu granicy Francji i Belgii. Przez dwa stulecia system liczbowy był używany przez mnichów należących do zakonu w całej Europie jako alternatywa dla dobrze znanych cyfr rzymskich i "nowych" cyfr hindusko-arabskich, z których te ostatnie dopiero zaczynały się przyjmować w tym czasie.
+</i></p>
+<p style="text-align: justify;"><i>
+    Mnisi używali tego systemu do reprezentowania liczb rocznych w datach oraz do numerowania pięciolinii muzycznych i stron manuskryptów, ale okazał się on również przydatny poza klasztorami. Wiemy, że notacja numeryczna była wykorzystywana w astronomii, ponieważ cyfry cysterskie zostały wyryte na astrolabiach - ręcznych średniowiecznych instrumentach astronomicznych - i wykorzystane w tablicach astronomicznych opracowanych w Salamance pod koniec XV wieku.
+</i></p>
+<p style="text-align: justify;"><i>
+    Ponieważ jednak cyfry cysterskie są użyteczne do reprezentowania tylko zwartych liczb do 9999, a także ze względu na fakt, że były trudne do wydrukowania, system ten wkrótce wypadł z łask na rzecz znacznie bardziej elastycznego hindusko-arabskiego systemu numeracji. Cysterskie szyfry przetrwały jednak w użyciu jako tajne kody. Masoni w Paryżu przyjęli go w 1780 roku, podobnie jak okultyści i naziści, którzy ponownie odkryli cysterski system liczbowy na początku XX wieku.
+</i></p>
+
+<p style="text-align: justify;">
+    Liczby te są reprezentowane przez dziewięć dodatków do pionowych łodyg, z których każdy odpowiada jednostkom, dziesiątkom, setkom i tysiącom.
+    Każda z czterech różnych orientacji może być reprezentowana przez zmianę współrzędnych. W praktyce więc zmiana współrzędnych każdej ligatury - poprzez ich obrócenie lub odbicie lustrzane - może zmienić cyfrę z jednostki na tysiąc. Gdy wyrostki są połączone na jednym trzonie, otrzymujemy szyfr reprezentujący dowolną liczbę od 1 do 9999.
+    Pominięcie cyfry w rogu oznaczało wartość zero dla tej potęgi dziesięciu, ale nie było cyfry zero. (Oznacza to, że pusta klepka nie została zdefiniowana)
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian1.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Oto liczby cysterskie dla cyfr od 1 do 9 i odpowiadające im reprezentacje w misji jako lista 7 list po 5 " " i "0". 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian2.svg" alt="example" style="max-height: 400px"/>
+</p>
+
+<p style="text-align: justify;">
+    W misji otrzymuje Pan/Pani liczbę całkowitą i musi Pan/Pani zwrócić reprezentację tej liczby w postaci liczby cysterskiej. Może Pan również spróbować wykonać odwróconą misję <a target="_blank" href="https://py.checkio.org/en/mission/cistercian-converter-ii-cistercian-to-integer/">Cistercian Converter II: Cistercian To Integer</a>. Istnieje również strona <a target="_blank" href="https://www.dcode.fr/cistercian-numbers">dCode</a> z wizualnym dwukierunkowym konwerterem liczb cysterskich.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Wejście:</strong> Integer <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> {% if is_js %}Tablica{% else %}Lista{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> tablic {% if is_js %}list{% else %}{% endif %} ciągów znaków <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
