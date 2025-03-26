@@ -1,0 +1,66 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;"><i>
+    Die Zahlennotation <a target="_blank" href="https://en.wikipedia.org/wiki/Cistercian_numerals">Cistercian</a> wurde im späten 13. Jahrhundert von Zisterziensermönchen in der Nähe des Grenzgebiets zwischen Frankreich und Belgien erfunden. Zwei Jahrhunderte lang wurde das Zahlensystem von den Mönchen des Ordens in ganz Europa als Alternative zu den bekannten römischen Ziffern und den 'neuartigen' hindu-arabischen Ziffern verwendet, die sich zu dieser Zeit gerade erst durchzusetzen begannen.
+</i></p>
+<p style="text-align: justify;"><i>
+    Die Mönche benutzten dieses System, um Jahreszahlen in Daten darzustellen und Notenzeilen und Seiten von Manuskripten zu nummerieren, aber es erwies sich auch außerhalb der Klöster als nützlich. Wir wissen, dass die numerische Notation in der Astronomie verwendet wurde, denn die Zisterzienserzahlen wurden auf Astrolabien - einem mittelalterlichen astronomischen Handinstrument - eingraviert und für astronomische Tabellen verwendet, die im späten 15.
+</i></p>
+<p style="text-align: justify;"><i>
+    Da sich die zisterziensischen Zahlen jedoch nur für die Darstellung kompakter Zahlen bis 9999 eignen und außerdem schwierig zu drucken waren, fiel das System bald zugunsten des viel flexibleren hindu-arabischen Zahlensystems in Ungnade. Die zisterziensischen Chiffren wurden jedoch weiterhin als Geheimcodes verwendet. Die Freimaurer in Paris übernahmen es 1780, ebenso wie Okkultisten und Nazis, die das zisterziensische Zahlensystem im frühen 20. Jahrhundert wiederentdeckten.
+</i></p>
+
+<p style="text-align: justify;">
+    Diese Zahlen werden durch neun Anhängsel an vertikalen Stämmen dargestellt, die jeweils Einheiten, Zehner, Hunderter und Tausender entsprechen.
+    Jede der vier verschiedenen Ausrichtungen kann durch Änderung der Koordinaten dargestellt werden. Praktisch bedeutet dies, dass eine Änderung der Koordinaten jeder Ligatur - entweder durch Drehen oder Spiegeln - die Ziffer von einer Einheit zu einer Tausend verändern kann. Wenn die Anhängsel an einem einzigen Stiel kombiniert werden, erhalten Sie eine Chiffre, die jede Zahl von 1 bis 9999 darstellt.
+    Das Weglassen einer Ziffer in einer Ecke bedeutete für diese Zehnerpotenz einen Wert von Null, aber es gab keine Ziffer Null. (Das heißt, ein leeres Notensystem wurde nicht definiert.)
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian1.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Hier sind die zisterziensischen Zahlen für 1-9 Ziffern und ihre entsprechenden Darstellungen in der Mission als Liste von 7 Listen mit 5 " "'s und "0"'s. 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian2.svg" alt="example" style="max-height: 400px"/>
+</p>
+
+<p style="text-align: justify;">
+    In der Aufgabe wird Ihnen eine ganze Zahl gegeben und Sie müssen die zisterziensische Zahlendarstellung dieser Zahl zurückgeben. Sie können auch die umgekehrte Aufgabe <a target="_blank" href="https://py.checkio.org/en/mission/cistercian-converter-ii-cistercian-to-integer/">Cistercian Converter II: Cistercian To Integer</a> versuchen. Es gibt auch eine Website <a target="_blank" href="https://www.dcode.fr/cistercian-numbers">dCode</a> mit einem visuellen Zwei-Wege-Konverter für zisterziensische Zahlen.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Ganzzahl <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> {% if is_js %}Array{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> von {% if is_js %}Arrays{% else %}Listen{% endif %} von Strings <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
