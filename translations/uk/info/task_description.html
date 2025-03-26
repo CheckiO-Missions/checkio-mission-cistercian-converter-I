@@ -1,0 +1,66 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;"><i>
+    Система числення <a target="_blank" href="https://en.wikipedia.org/wiki/Cistercian_numerals">Cistercian</a> була винайдена наприкінці 13 століття монахами-цистерціанцями на прикордонні між Францією та Бельгією. Протягом двох століть ця система числення використовувалася монахами ордену по всій Європі як альтернатива добре відомим римським цифрам і "новим" індуїстсько-арабським цифрам, які на той час тільки починали впроваджуватися.
+</i></p>
+<p style="text-align: justify;"><i>
+    Монахи використовували цю систему для позначення років у датах, нумерації нот і сторінок манускриптів, але вона виявилася корисною і за межами монастирів. Ми знаємо, що цистерціанська система числення використовувалася в астрономії, оскільки цистерціанські цифри були викарбувані на астролябіях - ручних середньовічних астрономічних інструментах - і використовувалися для астрономічних таблиць, складених у Саламанці наприкінці 15-го століття.
+</i></p>
+<p style="text-align: justify;"><i>
+    Але оскільки цистерціанські цифри придатні для представлення лише компактних чисел до 9999, а також через те, що їх було складно друкувати, система незабаром вийшла з ужитку на користь набагато гнучкішої індуїстсько-арабської системи нумерації. Однак цистерціанські шифри продовжували використовуватися як секретні коди. Масони в Парижі прийняли її в 1780 році, а також окультисти і нацисти, які знову відкрили для себе цистерціанську систему числення на початку 20-го століття.
+</i></p>
+
+<p style="text-align: justify;">
+    Ці цифри представлені дев'ятьма приставками до вертикальних стебел, кожна з яких відповідає одиницям, десяткам, сотням і тисячам.
+    Кожна з чотирьох різних орієнтацій може бути представлена зміною координат. Таким чином, практично, зміна координат кожної в'язі - або обертанням, або дзеркальним відображенням - може змінити цифру від одиниці до тисячі. Коли придатки об'єднані на одному стеблі, ви отримуєте шифр, що представляє будь-яке число від 1 до 9999.
+    Відсутність цифри в кутку означало значення нуля для цього степеня, але цифри нуль не було. (Тобто, порожній стовпчик не був визначений)
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian1.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Ось цистерціанські числа від 1 до 9 цифр та їхні відповідні зображення в місії у вигляді списку з 7 списків по 5 " " і "0". 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian2.svg" alt="example" style="max-height: 400px"/>
+</p>
+
+<p style="text-align: justify;">
+    У місії вам задано ціле число, і вам потрібно повернути цистерціанське представлення цього числа. Ви також можете спробувати обернену місію <a target="_blank" href="https://py.checkio.org/en/mission/cistercian-converter-ii-cistercian-to-integer/">Cistercian Converter II: Cistercian To Integer</a>. Існує також сайт <a target="_blank" href="https://www.dcode.fr/cistercian-numbers">dCode</a> з візуальним двостороннім конвертером для цистерціанських чисел.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Ціле число <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> масивів {% if is_js %}{% else %} списків{% endif %} рядків <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
