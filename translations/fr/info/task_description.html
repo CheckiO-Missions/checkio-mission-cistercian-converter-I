@@ -1,0 +1,66 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;"><i>
+    La notation numérique <a target="_blank" href="https://en.wikipedia.org/wiki/Cistercian_numerals">Cistercian</a> a été inventée à la fin du 13e siècle par des moines cisterciens, près de la région frontalière entre la France et la Belgique. Pendant deux siècles, ce système de chiffres a été utilisé par les moines de l'ordre dans toute l'Europe comme alternative aux chiffres romains bien connus et aux chiffres hindous-arabes "nouveaux", qui commençaient tout juste à être adoptés à l'époque.
+</i></p>
+<p style="text-align: justify;"><i>
+    Les moines utilisaient ce système pour représenter les années dans les dates, pour numéroter les portées de musique et les pages des manuscrits, mais il s'est également avéré utile en dehors des monastères. Nous savons que la notation numérique était utilisée en astronomie parce que les chiffres cisterciens ont été gravés sur des astrolabes - un instrument astronomique médiéval portatif - et utilisés pour les tables astronomiques compilées à Salamanque à la fin du 15e siècle.
+</i></p>
+<p style="text-align: justify;"><i>
+    Mais comme les chiffres cisterciens ne permettent de représenter que des nombres compacts jusqu'à 9999, et qu'ils sont difficiles à imprimer, le système est rapidement tombé en disgrâce au profit du système de numération hindou-arabe, beaucoup plus souple. Cependant, les chiffres cisterciens ont survécu en tant que codes secrets. Les francs-maçons de Paris l'ont adopté en 1780, de même que les occultistes et les nazis qui ont redécouvert le système numéral cistercien au début du 20e siècle.
+</i></p>
+
+<p style="text-align: justify;">
+    Ces chiffres sont représentés par neuf appendices à des tiges verticales qui correspondent chacune à des unités, des dizaines, des centaines et des milliers.
+    Chacune des quatre orientations différentes peut être représentée en changeant les coordonnées. Ainsi, en pratique, la modification des coordonnées de chaque ligature - en les faisant pivoter ou en les inversant - peut faire passer le chiffre d'une unité à un millier. Lorsque les appendices sont combinés sur une seule tige, vous obtenez un chiffre représentant n'importe quel nombre de 1 à 9999.
+    L'omission d'un chiffre dans un coin signifiait une valeur de zéro pour cette puissance de dix, mais il n'y avait pas de chiffre zéro. (En d'autres termes, une portée vide n'a pas été définie)
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian1.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Voici les nombres cisterciens pour les chiffres de 1 à 9 et leurs représentations correspondantes dans la mission sous la forme d'une liste de 7 listes de 5 " " et de "0". 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}cistercian2.svg" alt="example" style="max-height: 400px"/>
+</p>
+
+<p style="text-align: justify;">
+    Dans la mission, on vous donne un nombre entier et vous devez retourner la représentation cistercienne de ce nombre. Vous pouvez également essayer la mission inversée <a target="_blank" href="https://py.checkio.org/en/mission/cistercian-converter-ii-cistercian-to-integer/">Cistercian Converter II: Cistercian To Integer</a>. Il existe également un site <a target="_blank" href="https://www.dcode.fr/cistercian-numbers">dCode</a> qui propose un convertisseur visuel à double sens pour les nombres cisterciens.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> Entier <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> {% if is_js %}Tableau{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> de tableaux {% if is_js %}{% else %} de listes{% endif %} de chaînes de caractères <span>(str{% if is_js %}ing{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
